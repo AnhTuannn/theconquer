@@ -1,0 +1,178 @@
+/* setting-fonts */
+@font-face {
+    font-family: Weird-Serif;
+    src: url("../font/Weird_Serif_0.1_font/Weird\ Serif\ v0.1\ Demo\ -\ Regular.otf");
+}
+/* setting-fonts */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+.header{
+    height: 100px;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-50%);
+}
+.subscribe{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0%;
+}
+.logo-type{
+    font-family: Weird-Serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: #000;
+}
+.logo-first-letter{
+    font-size: 70px;
+}
+.btn-header{
+    line-height: 100px;
+}
+.text-black{
+    color: #000 !important;
+}
+#nav-scroll{
+    transition: top 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 600px){
+    .btn-header{
+        display: none !important;
+    }
+}
+/* header */
+/* sign-in-form */
+.bg-height{
+    padding-bottom: 200px;
+}
+.sign-in-box{
+    height: auto;
+    width: 500px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 160px 0;
+}
+.sign-in-form{
+    background-color: #fff;
+    padding: 30px 15px;
+}
+/* sign-in-form */
+/* main */
+.bg-main{
+    background-color: #f8f8f8;
+}
+.margin-top{
+    margin-top: 150px;
+}
+.margin-top-2{
+    margin-top: 100px;
+}
+    /* end of section 1 */
+.hot-issue-title{
+    font-size: 50px;
+    font-family: Weird-Serif; 
+}
+    /* end of section 2 */
+    .section4-title{
+        font-size: 36px;
+        font-family: Weird-Serif;
+        text-align: center;
+    }
+    /* end of section 4 */
+    .section6-title{
+        font-family: Weird-Serif;
+        text-align: center;
+
+    }
+    /* end of section 6 */
+/* main */
+
+
+/* footer */
+.vertical-box{
+    height: 50px;
+    display: flex;
+}
+.vertical-box .vertical-line{
+    margin: auto;
+    position: relative;
+    font-size: 12px !important;
+    color: #fff !important;
+}
+.vertical-box .vertical-line::after{
+    position: absolute;
+    right: 0;
+    content: "";
+    border-left: 1px solid #fff;
+    height: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn-cookies-settings{
+    font-size: 10px !important;
+}
+.footer-dropdown{
+    padding: 6px 4px !important;
+}
+@media only screen and (max-width: 992px){
+    .vertical-box .vertical-line::after{
+        display: none !important;
+    }
+}
+.copy-right{
+    font-size: 10px;
+}
+.footer{
+    padding: 50px 0;
+    background-color: #000;
+}
+.logo-small{
+    font-family: Weird-Serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: #000;
+}
+.logo-small-letter{
+    font-size: 40px;
+}
+/* footer */
+
+/* fashion site */
+.fashion-title{
+    font-family: Weird-Serif;
+    font-size: 80px;
+    font-weight: normal;
+    color: #000;
+    padding: 68px 0;
+    text-align: center;
+}
+/* fashion site */
+.date{
+    font-size: 12px;
+}
